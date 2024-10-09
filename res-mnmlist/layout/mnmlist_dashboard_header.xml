@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <!--
-     Copyright 2021 xdroid, xyzprjkt
+     Copyright 2021 scndm.oid, xyzprjkt
      Licensed under the Apache License, Version 2.0 (the "License");
      you may not use this file except in compliance with the License.
      You may obtain a copy of the License at
@@ -17,19 +17,19 @@
      android:layout_height="210dp"
      android:layout_marginTop="4dp"
      android:layout_marginBottom="4dp"
-     android:layout_marginHorizontal="@dimen/xd_pref_card_horizontal_padding"
-     android:background="@drawable/xd_pref_card_sin"
+     android:layout_marginHorizontal="@dimen/scndm_pref_card_horizontal_padding"
+     android:background="@drawable/scndm_pref_card_sin"
      android:clipToPadding="false">
 
      <com.google.android.material.card.MaterialCardView
-          android:id="@+id/xd_about_phone_header_illustration"
+          android:id="@+id/scndm_about_phone_header_illustration"
           android:layout_width="match_parent"
           android:layout_height="210dp"
           app:cardElevation="0dp"
           app:cardBackgroundColor="@android:color/transparent"
-          app:cardCornerRadius="@dimen/xd_pref_card_radius">
+          app:cardCornerRadius="@dimen/scndm_pref_card_radius">
 
-          <com.xdroidui.preferences.xdCardPrefWallBlur
+          <com.scndm.oidui.preferences.scndm.ardPrefWallBlur
                android:layout_width="match_parent"
                android:layout_height="match_parent"
                android:scaleType="centerCrop"
@@ -40,7 +40,7 @@
           <LinearLayout
                android:layout_width="match_parent"
                android:layout_height="match_parent"
-               android:background="@color/xd_background1"
+               android:background="@color/scndm_background1"
                android:alpha="0.8"/>
 
           <RelativeLayout
@@ -56,7 +56,7 @@
                     android:id="@+id/mnmlist_dashboard_icon"
                     android:layout_width="52dp"
                     android:layout_height="52dp"
-                    android:src="@drawable/xd_icon"
+                    android:src="@drawable/scndm_icon"
                     android:tint="?android:attr/textColorPrimary"/>
 
                <TextView
@@ -66,17 +66,17 @@
                     android:text="@string/mnmlist_dashboard_title"
                     android:layout_below="@id/mnmlist_dashboard_icon"
                     android:layout_alignStart="@id/mnmlist_dashboard_icon"
-                    style="@style/xd_text_primary_medium"/>
+                    style="@style/scndm_text_primary_medium"/>
             
                <TextView
                     android:id="@+id/mnmlist_dashboard_summary"
                     android:layout_width="fill_parent"
                     android:layout_height="wrap_content"
-                    android:text="@string/xd_about_desc"
+                    android:text="@string/scndm_about_desc"
                     android:justificationMode="inter_word"
                     android:layout_below="@id/mnmlist_dashboard_title"
                     android:layout_alignStart="@id/mnmlist_dashboard_title"
-                    style="@style/xd_text_secondary"/>
+                    style="@style/scndm_text_secondary"/>
 
           </RelativeLayout>
 

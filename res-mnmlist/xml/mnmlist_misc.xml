@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="utf-8"?>
-<!-- Copyright (C) 2022 The xdroidOSS, xyzprjkt
+<!-- Copyright (C) 2022 The scndm.oidOSS, xyzprjkt
 
      Licensed under the Apache License, Version 2.0 (the "License");
      you may not use this file except in compliance with the License.
@@ -18,7 +18,7 @@
      android:title="@string/misc_title"
      xmlns:settings="http://schemas.android.com/apk/res/com.android.settings">
 
-     <com.xd.mnmlist.preferences.SystemSettingSwitchPreference
+     <com.scndm.mnmlist.preferences.SystemSettingSwitchPreference
           android:key="mnmlist_summary"
           android:title="@string/show_mnmlist_summary_title"
           android:summary="@string/show_mnmlist_summary_summary"
@@ -37,13 +37,13 @@
           android:summary="@string/use_photos_spoof_summary"
           android:defaultValue="true" />
 
-     <com.xd.mnmlist.preferences.SecureSettingSwitchPreference
+     <com.scndm.mnmlist.preferences.SecureSettingSwitchPreference
           android:key="advanced_reboot"
           android:title="@string/global_actions_advanced_reboot_title"
           android:summary="@string/global_actions_advanced_reboot_summary"
           android:defaultValue="true" />
 
-     <com.xd.mnmlist.preferences.SecureSettingSwitchPreference
+     <com.scndm.mnmlist.preferences.SecureSettingSwitchPreference
          android:key="window_ignore_secure"
          android:title="@string/ignore_window_secure_title"
          android:summary="@string/ignore_window_secure_summary"

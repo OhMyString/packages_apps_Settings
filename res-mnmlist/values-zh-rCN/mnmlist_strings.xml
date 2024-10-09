@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="utf-8"?>
 <!--
 
-     Copyright (C) 2022 xdroid & xyzprjkt
+     Copyright (C) 2022 scndm.oid & xyzprjkt
 
      Licensed under the Apache License, Version 2.0 (the "License");
      you may not use this file except in compliance with the License.
@@ -18,9 +18,9 @@
 <resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
     <!-- Dashboard -->
     <string name="mnmlist_title">mnmlist</string>
-    <string name="mnmlist_dashboard_title">什么是 xdroid？</string>
-    <string name="xd_tap_about">关于 xdroid</string>
-    <string name="xd_tap_about_summary">点击这里了解更多关于xdroid的信息</string>
+    <string name="mnmlist_dashboard_title">什么是 scndm.oid？</string>
+    <string name="scndm_tap_about">关于 scndm.oid</string>
+    <string name="scndm_tap_about_summary">点击这里了解更多关于scndm.oid的信息</string>
     <string name="gestures_title">手势 &#38; 按键</string>
     <string name="gestures_summary">双击手势 • 系统导航 • 音量键唤醒 • 播放控制</string>
     <string name="misc_title">杂项</string>

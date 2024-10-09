@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="utf-8"?>
 <!-- 
      
-     Copyright (C) 2022 The xdroidOSS, xyzprjkt
+     Copyright (C) 2022 The scndm.oidOSS, xyzprjkt
 
      Licensed under the Apache License, Version 2.0 (the "License");
      you may not use this file except in compliance with the License.
@@ -25,44 +25,44 @@
             settings:layout="@layout/mnmlist_dashboard_header"/>
 
         <Preference
-            android:title="@string/xd_tap_about"
-            android:summary="@string/xd_tap_about_summary"
-            android:icon="@drawable/xd_about"
-            settings:layout="@layout/xd_pref_card_sin_tertiary">
+            android:title="@string/scndm_tap_about"
+            android:summary="@string/scndm_tap_about_summary"
+            android:icon="@drawable/scndm_about"
+            settings:layout="@layout/scndm_pref_card_sin_tertiary">
         
             <intent
             android:action="android.intent.action.VIEW"
-            android:targetPackage="id.xyzprjkt.xd.xdcore"
-            android:targetClass="id.xyzprjkt.xd.xdcore.about.AboutActivity"/>
+            android:targetPackage="id.xyzprjkt.scndm.scndm.ore"
+            android:targetClass="id.xyzprjkt.scndm.scndm.ore.about.AboutActivity"/>
         
         </Preference>
 
         <!-- System Interfaces -->
         <Preference
             android:key="statusbar_category"
-            settings:layout="@layout/xd_dashboard_pref_top"
+            settings:layout="@layout/scndm_dashboard_pref_top"
             android:title="@string/interfaces_title"
-            android:fragment="com.xd.mnmlist.fragments.Interfaces" />
+            android:fragment="com.scndm.mnmlist.fragments.Interfaces" />
 
         <!-- Gestures & Buttons -->
         <Preference
             android:key="gestures_category"
-            settings:layout="@layout/xd_dashboard_pref_mid"
+            settings:layout="@layout/scndm_dashboard_pref_mid"
             android:title="@string/gestures_title"
             android:fragment="com.android.settings.gestures.GestureSettings"/>
         
         <!-- Lockscreen -->
         <Preference
             android:key="lockscreen_category"
-            settings:layout="@layout/xd_dashboard_pref_mid"
+            settings:layout="@layout/scndm_dashboard_pref_mid"
             android:title="@string/lockscreen_title" 
-            android:fragment="com.xd.mnmlist.fragments.Lockscreen"/>
+            android:fragment="com.scndm.mnmlist.fragments.Lockscreen"/>
 
         <!-- Misc -->
         <Preference
             android:key="misc_category"
-            settings:layout="@layout/xd_dashboard_pref_bot"
+            settings:layout="@layout/scndm_dashboard_pref_bot"
             android:title="@string/misc_title" 
-            android:fragment="com.xd.mnmlist.fragments.Misc"/>
+            android:fragment="com.scndm.mnmlist.fragments.Misc"/>
 
 </PreferenceScreen>
